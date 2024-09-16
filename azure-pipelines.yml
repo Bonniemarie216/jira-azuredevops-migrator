@@ -105,6 +105,7 @@ steps:
         Newtonsoft.Json.dll
         RestSharp.dll
         Semver.dll
+        System.Configuration.ConfigurationManager.dll
         System.Diagnostics.DiagnosticSource.dll
     TargetFolder: '$(build.artifactstagingdirectory)\WorkItemMigrator'
     flattenFolders: true
