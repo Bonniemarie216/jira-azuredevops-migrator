@@ -41,6 +41,7 @@ steps:
         jira-export.exe
         jira-export.dll
         jira-export.exe.config
+        jira-export.runtimeconfig.json
         Microsoft.AI.Agent.Intercept.dll
         Microsoft.AI.DependencyCollector.dll
         Microsoft.ApplicationInsights.dll
