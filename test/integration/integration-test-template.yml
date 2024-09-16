@@ -28,7 +28,7 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: 'Alexander test Publish Artifact'
   inputs:
-    PathtoPublish: '$(build.defaultworkingdirectory)\src\WorkItemMigrator'
+    PathtoPublish: '$(system.defaultworkingdirectory)\src\WorkItemMigrator'
     ArtifactName: WorkItemMigrator
 
 - task: CopyFiles@2
