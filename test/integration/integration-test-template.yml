@@ -79,6 +79,7 @@ steps:
         wi-import.exe
         wi-import.exe.config
         wi-import.dll
+        wi-import.runtimeconfig.json
     TargetFolder: '$(build.artifactstagingdirectory)\WorkItemMigrator'
     flattenFolders: true
 
