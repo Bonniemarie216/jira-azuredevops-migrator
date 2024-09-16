@@ -37,6 +37,12 @@ steps:
     platform: '$(BuildPlatform)'
     configuration: '$(BuildConfiguration)'
 
+- task: PublishBuildArtifacts@1
+  displayName: 'Alexander test Publish Artifact'
+  inputs:
+    PathtoPublish: '$(build.defaultworkingdirectory)\src\WorkItemMigrator'
+    ArtifactName: WorkItemMigrator
+
 - task: CopyFiles@2
   displayName: 'Copy JiraExport files'
   inputs:
