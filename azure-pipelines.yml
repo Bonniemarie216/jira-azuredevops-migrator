@@ -132,6 +132,7 @@ steps:
         System.Net.Http.Formatting.dll
         wi-import.exe
         wi-import.exe.config
+        wi-import.dll
     TargetFolder: '$(build.artifactstagingdirectory)\WorkItemMigrator'
     flattenFolders: true
 
